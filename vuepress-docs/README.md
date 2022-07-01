@@ -64,7 +64,9 @@ start({ remoteUrl: "https://example.com/apps.json" });
 - [入门: 自定义中间件](https://stackblitz.com/edit/js-9dzksc) <!-- | [playground/simple-custom-midware](https://github.com/satumjs/playground/tree/master/simple-custom-midware) -->
 - [入门: 使用官方中间件](https://stackblitz.com/edit/js-xte5xe) <!-- | [playground/use-offical-midwares](https://github.com/satumjs/playground/tree/master/use-offical-midwares) -->
 - [入门: 集成自带生命周期的微应用](https://stackblitz.com/edit/js-lyqjyr) <!-- | [playground/use-app-with-lifecycles](https://github.com/satumjs/playground/tree/master/use-app-with-lifecycles) -->
-- [入门: 使用区块机制](https://stackblitz.com/edit/js-m2kkqn) <!-- | [playground/simple-block-example](https://github.com/satumjs/playground/tree/master/simple-block-example) -->
+- [进阶: 使用区块机制](https://stackblitz.com/edit/js-m2kkqn) <!-- | [playground/simple-block-example](https://github.com/satumjs/playground/tree/master/simple-block-example) -->
+- [进阶: 共享三方库](https://stackblitz.com/edit/github-vfvwg3)
+- [进阶: 共享组件](https://github.com/satumjs/playground/tree/master/simple-share-component)
 
 # 社区
 
