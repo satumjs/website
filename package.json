@@ -3,17 +3,24 @@
   "version": "0.1.5",
   "description": "an offical website for satumjs",
   "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev vuepress-docs",
+    "build": "rm -rf docs && vuepress build vuepress-docs && mv vuepress-docs/.vuepress/dist docs",
+    "gh-pages-deploy": "node scripts/gh-pages-deploy.js"
+  },
   "dependencies": {
     "@vuepress/plugin-back-to-top": "1.9.7",
     "@vuepress/plugin-medium-zoom": "1.9.7",
     "markdown-it-imsize": "2.0.1",
     "vuepress": "1.9.7"
   },
-  "scripts": {
-    "dev": "vuepress dev vuepress-docs",
-    "build": "rm -rf docs && vuepress build vuepress-docs && mv vuepress-docs/.vuepress/dist docs"
+  "devDependecies": {
+    "execa": "^5.1.1"
   },
   "repository": "https://github.com/satumjs/website.git",
   "author": "valleykid <valleykiddy@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "execa": "5.1.1"
+  }
 }
