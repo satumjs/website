@@ -56,6 +56,7 @@ var _hmt=_hmt||[];!function(){if(currentDomainIsIgnored) return;var hm=document.
           { title: '简单介绍', path: '/guide/' },
           { title: '快速上手', path: '/guide/getting-started' },
           { title: '架构体系', path: '/guide/architecture-map' },
+          { title: '参与贡献', path: '/guide/contributing' },
         ],
       }, {
         title: 'API',
