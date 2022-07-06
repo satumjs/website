@@ -23,9 +23,9 @@ npm 一般会内置，yarn 可根据[官网](https://yarnpkg.com/getting-started
 ```ts
 import { MidwareSystem, IMicroApp, NextFn } from "@satumjs/types";
 
-export function xxxMidware(system: MidwareSystem, microApps: IMicroApp[], next: NextFn) {
+export function xxxMidware(sys: MidwareSystem, microApps: IMicroApp[], next: NextFn) {
   // 参考中间件节点，处理流程中的数据
-  system.set(MidwareName.code, (source: string, fileUrl: string) => {/* 你的逻辑 */});
+  sys.set(MidwareName.code, (source: string, fileUrl: string) => {/* 你的逻辑 */});
   next();
 }
 ```
@@ -34,7 +34,7 @@ export function xxxMidware(system: MidwareSystem, microApps: IMicroApp[], next: 
 ```ts
 import { PluginSystem, PluginEvent } from "@satumjs/core";
 
-export function testPlugin(sys: PluginSystem) {
+export function xxxPlugin(sys: PluginSystem) {
   // 参考插件钩子，处理钩子回调数据
   sys.event(PluginEvent.fileOriginSource, (detail) => {/* 你的逻辑 */});
 }
