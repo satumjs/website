@@ -22,7 +22,7 @@ register(
 
 #### 参数说明
 
-当传入微应用名为 `HOST_APPLICATION_OF_SATUMMICRO` 时，则是注册基座路由规则。此时除了 `name`、`rules`、`history` 外，其余设置均失效。因为基座应用非微应用，这里注册仅用于协调路由。
+当传入微应用名为 `SATUMMICRO_HOST_APPLICATION` 时，则是注册基座路由规则。此时除了 `name`、`rules`、`history` 外，其余设置均失效。因为基座应用非微应用，这里注册仅用于协调路由。
 
 ```ts
 type Entry = string | string[] | { styles?: string[]; scripts?: string[]; html?: string; }
