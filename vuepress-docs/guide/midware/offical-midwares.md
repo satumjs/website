@@ -61,6 +61,18 @@ sidebarDepth: 2
 
 基于 iframe 实现的沙箱，支持**严格的脚本运行环境**，会把挂载节点视作虚拟 BODY，脚本里**对 dom 元素的操作会严格限制在虚拟 BODY 范围内**。并且多实例场景下，**不阉割沙箱能力无缝支持 Vite**。
 
+- Vite 模式 (loose 和 strict 都不设置或都为 false 时)
+  - `batchNumber`: number, 设置静态资源批量请求时最大数，默认 200
+  - `ifmAttribute`: Object, 设置 iframe 的属性
+  - `mergeWinProperty(fakeWin: Object, window: Window): void`: 通过增删改 fakeWin 对象上的属性，改写沙箱 window 的属性
+<br>
+- 普通模式
+  - `loose`: boolean, 仅使用 with 控制沙箱上下文
+  - `strict`: boolean, 使用 with + function 控制沙箱上下文
+  - `ifmAttribute`: 同上
+  - `mergeWinProperty(fakeWin: Object, window: Window): void`: 同上
+  - `proxyIds`: string[], 默认会劫持 localStorage/sessionStorage，设置白名单则不被统一管控
+
 ## @satumjs/midware-microcode
 
 [https://www.npmjs.com/package/@satumjs/midware-microcode](https://www.npmjs.com/package/@satumjs/midware-microcode)
