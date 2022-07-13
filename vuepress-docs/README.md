@@ -6,29 +6,26 @@ tagline: 💫 面向多实例集成、功能可插拔的微前端框架
 actionText: 快速上手 →
 actionLink: /guide/
 features:
-  - title: 微内核
-    details: 支持中间件、插件机制，可以集成其他微前端框架，和做有意义的扩展。
-  - title: 开箱即用
-    details: 只需要引入 @satumjs/core，配置微应用的激活规则后即可看到效果。
-  - title: 集成能力强
-    details: 支持所有的外部应用无需任何适配代码，就能无缝地集成。
-  - title: 支持多实例
-    details: 内置激活规则计算，可以同时激活多个实例，甚至是多条“微应用依赖链”。
-  - title: 共享机制灵活
-    details: UI 上支持布局/区块/组件/三方库共享，数据逻辑层面支持跨微应用共享。
-  - title: 无缝支持 Vite
-    details: 官方提供的沙箱中间件，完整的沙箱能力无缝支持 Vite。
+  - title: 易扩展
+    details: 内置中间件和插件机制，可以做像缓存、沙箱、代码处理等功能扩展。
+  - title: 易上手
+    details: 只需要一个 @satumjs/core 依赖，配置激活规则后即可看到效果。
+  - title: 零侵入
+    details: 微应用不需要适配代码，零侵入无感知就能无缝地集成。
 
-footer: SatumJS ❤️ you
+footer: SatumJS ❤️ you | Copyright © 2020-present
+
+sidebarDepth: 2
+sidebar: auto
 ---
 
-# 📦 安装
+## 安装
 
 ```bash
 $ yarn add @satumjs/core  # or npm i @satumjs/core -S
 ```
 
-# 🔨 使用
+## 使用
 
 ```js
 import { register, start } from "@satumjs/core";
@@ -68,7 +65,7 @@ start({ remoteUrl: "https://example.com/apps.json" });
 - [进阶: 共享三方库](https://stackblitz.com/edit/github-vfvwg3)
 - [进阶: 共享组件](https://github.com/satumjs/playground/tree/master/simple-share-component)
 
-# 社区
+## 社区
 
 > 加我微信 `valleykiddy` 注明“satumjs”，加好友后会邀请入微信群。微信群二维码**不再更新**。
 
