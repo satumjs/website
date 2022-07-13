@@ -2,7 +2,7 @@
 home: true
 heroImage: https://gw.alipayobjects.com/mdn/rms_edced6/afts/img/A*KfcRTYnC4eoAAAAAAAAAAAAAARQnAQ
 tagLine: SatumJS
-tagline: 💫 面向多实例集成、功能可插拔的微前端框架
+tagline: 🔱 面向多实例集成、功能可插拔的微前端框架
 actionText: 快速上手 →
 actionLink: /guide/
 features:
