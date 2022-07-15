@@ -11,7 +11,7 @@ features:
   - title: 易上手
     details: 只需要一个 @satumjs/core 依赖，配置激活规则后即可看到效果。
   - title: 零侵入
-    details: 微应用不需要适配代码，零侵入无感知就能无缝地集成。
+    details: 微应用不需要任何适配代码，零侵入就能无缝地集成。
 
 footer: SatumJS ❤️ you | Copyright © 2020-present
 
