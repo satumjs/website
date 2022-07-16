@@ -6,10 +6,10 @@ tagline: 🔱 面向多实例集成、功能可插拔的微前端框架
 actionText: 快速上手 →
 actionLink: /guide/
 features:
-  - title: 易扩展
-    details: 内置中间件和插件机制，可以做像缓存、沙箱、代码处理等功能扩展。
-  - title: 易上手
+  - title: 开箱即用
     details: 只需要一个 @satumjs/core 依赖，配置激活规则后即可看到效果。
+  - title: 易定制
+    details: 微内核架构内置了中间件/插件机制，可通过扩展功能，定制适合的微前端。
   - title: 零侵入
     details: 微应用不需要任何适配代码，零侵入就能无缝地集成。
 
