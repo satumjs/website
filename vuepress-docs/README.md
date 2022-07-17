@@ -11,7 +11,7 @@ features:
   - title: 易定制
     details: 微内核架构内置了中间件/插件机制，可通过扩展功能，定制适合的微前端。
   - title: 零侵入
-    details: 微应用不需要任何适配代码，零侵入就能无缝地集成。
+    details: 微应用(包括 Vite 应用)不需要任何适配代码，零侵入就能无缝地集成。
 
 footer: SatumJS ❤️ you | Copyright © 2020-present
 
