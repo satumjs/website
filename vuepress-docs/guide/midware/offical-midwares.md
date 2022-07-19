@@ -39,11 +39,11 @@ sidebarDepth: 2
 
 对 `single-spa` 做了一层封装，可以利用其 url 变化，协调微应用加/卸载的能力。
 
-## @satumjs/midware-thead-occ
+<!-- ## @satumjs/midware-thead-occ
 
 [https://www.npmjs.com/package/@satumjs/midware-thead-occ](https://www.npmjs.com/package/@satumjs/midware-thead-occ)
 
-针对 occ 网站业务，封装了一个中间件。除了借用 `@satumjs/simple-midwares` 的一些能力外，重点实现了**浏览器 nosql 缓存机制**。
+针对 occ 网站业务，封装了一个中间件。除了借用 `@satumjs/simple-midwares` 的一些能力外，重点实现了**浏览器 nosql 缓存机制**。 -->
 
 ## @satumjs/midware-qiankun-sandbox
 
