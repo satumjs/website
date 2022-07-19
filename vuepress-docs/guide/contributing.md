@@ -3,6 +3,8 @@ title: guide-参与贡献
 sidebarDepth: 2
 ---
 
+# 参与贡献
+
 期待大家参与共建 SatumJS，使之越来越好，能够帮助更多的同学~
 
 ## 环境准备

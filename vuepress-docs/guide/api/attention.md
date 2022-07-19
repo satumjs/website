@@ -3,6 +3,8 @@ title: api-注意事项
 sidebarDepth: 2
 ---
 
+# 注意事项
+
 ## 激活规则
 
 字符串路径规则，与 `single-spa` 的[匹配逻辑](https://single-spa.js.org/docs/api#configuration-object)一致。

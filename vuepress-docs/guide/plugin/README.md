@@ -3,6 +3,8 @@ title: plugin-文档说明
 sidebarDepth: 2
 ---
 
+# 文档说明
+
 ## `PluginEvent` 内置的钩子
 
 - `fileLoadStart`: 文件开始请求获取时触发
