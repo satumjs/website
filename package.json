@@ -14,13 +14,10 @@
     "markdown-it-imsize": "2.0.1",
     "vuepress": "1.9.7"
   },
-  "devDependecies": {
+  "devDependencies": {
     "execa": "^5.1.1"
   },
   "repository": "https://github.com/satumjs/website.git",
   "author": "valleykid <valleykiddy@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "execa": "5.1.1"
-  }
+  "license": "MIT"
 }
