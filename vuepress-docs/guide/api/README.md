@@ -143,7 +143,7 @@ type PluginSystem = { event: EventFn; evtCount(evtName: string): number; options
 
 当基座具有路由系统时，协调基座和微应用的路由。当用户获取到基座的 router-history 时，手动调用。
 
-> 无论是否传参 rules，都必须调用。这样框架控制路由，以便于协调和调度。
+> 无论是否传参 rules，都必须调用该方法。这样 Satum 内核得以控制基座路由，以便于协调和调度。
 
 #### 用法
 
